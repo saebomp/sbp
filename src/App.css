@@ -1,10 +1,51 @@
-* {
-  list-style: none;
-  text-decoration: none;
+html, body {
+    height: 100%;
+}
+#root {
+  height: 100%;
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top:0;
-  right:0;
+  left:0;
+  bottom:0;
+  background:white;
+  width:200px;
+  display: flex;
+  z-index: 100;
+  box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
+  height:100%;
+  overflow:hidden;
+  color:#000;
+}
+
+nav a {
+  color:#000;
+}
+
+nav a:active {
+  color:#000;
+}
+
+nav .logo {
+  margin-top:50px;
+  margin-left:24px;
+}
+
+nav .router {
+  margin-top:50px;
+  margin-left:24px;
+}
+
+nav .router li {
+  margin-bottom:20px;
+}
+
+.main {
+  padding-left:250px;
+  background:#fafafa;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }

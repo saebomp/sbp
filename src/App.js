@@ -8,12 +8,14 @@ import {
 
 //components
 import Nav from './components/Nav';
+import Homepage from './components/Homepage';
 import Project from './components/Project';
 import About from './components/About';
 import Contact from './components/Contact';
 
 //style
 import './App.css';
+import './Reset.css';
 
 export default function App() {
   return (
@@ -38,8 +40,6 @@ export default function App() {
 }
 
 const Home = () => (
-  <div>
-    <h1>Home page</h1>
-  </div>
+  <Homepage />
 );
 
