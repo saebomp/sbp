@@ -43,9 +43,14 @@ nav .router li {
 }
 
 .main {
-  padding-left:250px;
+  padding-left:300px;
   background:#fafafa;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  padding-top:50px;
+}
+.main > h1 {
+  font-size:25px;
+  text-transform: uppercase;
 }
