@@ -7,10 +7,10 @@ html, body {
 
 .main {
   background:#fafafa;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   box-sizing: border-box;
-  padding:50px 80px 50px 300px;
+  padding:50px 80px 70px 300px;
 }
 .main > h1 {
   font-size:40px;
@@ -73,8 +73,14 @@ nav .router li {
   transition: all 0.5s ease;
 }
 
-.items .linkWrapper {
+.items .linkWrapper ul {
+  margin-top:30px;
+  color:#333;
+}
 
+.items .linkWrapper ul li {
+  margin-bottom: 10px;
+  font-size:20px;
 }
 
 .items .tPic {

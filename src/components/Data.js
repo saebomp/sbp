@@ -16,5 +16,23 @@ export let DATA = [
       name:'This is a school project',
       title:'React, Node',
       href:"https://www.school.com",
+    },
+    {
+      id:3,
+      imgtitle: 'school',
+      src: require('../images/prj01.png'),
+      alt:'school',
+      name:'This is a school project',
+      title:'React, Node',
+      href:"https://www.school.com",
+    },
+    {
+      id:4,
+      imgtitle: 'school',
+      src: require('../images/prj02.png'),
+      alt:'school',
+      name:'This is a school project',
+      title:'React, Node',
+      href:"https://www.school.com",
     }
 ]

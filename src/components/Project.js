@@ -1,6 +1,6 @@
 import React, { Component, useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import {DATA}  from './Data';
+import { DATA }  from './Data';
 import List from './List';
 
 export default function Project() {
@@ -35,7 +35,7 @@ export default function Project() {
                   <ul>
                     <li>{item.name}</li>
                     <li>{item.title}</li>
-                    <li><a href={item.ahref} target="_blank">{item.ahref}</a></li>
+                    {/* <li><a href="{item.href}" target="_blank">{item.href}</a></li> */}
                   </ul>
                 </a>
               </Link>
