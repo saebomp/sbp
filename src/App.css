@@ -7,18 +7,21 @@ html, body {
 
 .main {
   background:#fafafa;
-  /* height: 100%; */
   width: 100%;
   box-sizing: border-box;
-  padding:50px 80px 70px 300px;
+  height: 100%;
 }
-.main > h1 {
+
+.wrapper {
+  padding:50px 80px 70px 290px;
+}
+
+.wrapper> h1 {
   font-size:40px;
   text-transform: uppercase;
   margin-bottom:75px;
   font-weight: bold;
 }
-
 /* Navigation */
 nav {
   position: fixed;
@@ -90,4 +93,24 @@ nav .router li {
 
 .items .tPic img:hover {
   transform: scale(1.2);
+}
+
+/*List*/
+.listWrapper {
+  padding-bottom:80px;
+  color:#333;
+  font-size:18px;
+}
+
+.prjImg {
+  width:100%
+}
+
+.desc {
+  
+  margin-top:15px;
+}
+
+.desc li {
+  margin-bottom:10px;
 }

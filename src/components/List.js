@@ -3,23 +3,26 @@ import { DATA }  from './Data';
 
 
 const List = ({match}) => {
-  useEffect(() => {
-    
-    console.log(match)
-  }, []);
+  let id = match.params.id -1;
 
-  const [lists,setLists] = useState({});
-  const fetchItem = () => {
-    setLists(lists);
-    console.log(lists);
-  }
+  const [item,setItem] = useState(DATA[id]);
 
   return (
     <div className="main">
-      <h1>{lists.title}</h1>
-      {/* {lists.map((list) => (
-        <h1>{list.title}</h1>
-      ))} */}
+      <div className="wrapper">
+      <h1>{item.name}</h1>
+      <div className="listWrapper">
+        <div>
+          <img title={item.imgtitle} src={item.src} alt={item.alt} className="prjImg" />
+        </div>
+        <ul className="desc">
+          <li>{item.name}</li>
+          <li>{item.href}</li>
+          <li>{item.title}</li>
+        </ul>
+        <p>{item.desc}</p>
+      </div>
+      </div>
     </div>
   )
 }

@@ -5,7 +5,10 @@ class Homepage extends Component {
   render() {
     return (
       <div className="main">
+        <div class="wrapper">
         <h1>Home</h1>
+        <div>HELLo!!!!!!!!!!!!!!!!!I AM HERE</div>
+        </div>
       </div>
     );
   }
