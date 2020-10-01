@@ -5,6 +5,21 @@ html, body {
   height: 100%;
 }
 
+.main {
+  background:#fafafa;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding:50px 80px 50px 300px;
+}
+.main > h1 {
+  font-size:40px;
+  text-transform: uppercase;
+  margin-bottom:75px;
+  font-weight: bold;
+}
+
+/* Navigation */
 nav {
   position: fixed;
   top:0;
@@ -42,15 +57,24 @@ nav .router li {
   margin-bottom:20px;
 }
 
-.main {
-  padding-left:300px;
-  background:#fafafa;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  padding-top:50px;
+/* Project */
+.itemContainer {
+  display: grid;
+  grid-template-columns:50% 50%;
+  grid-gap: 30px;
 }
-.main > h1 {
-  font-size:25px;
-  text-transform: uppercase;
+
+.items {
+  border-radius: 5px;
+}
+.items .tPic img {
+  width:100%;
+  transition: all 0.5s ease;
+}
+.items .tPic {
+  object-fit: cover;
+  overflow: hidden;
+}
+.items .tPic img:hover {
+  transform: scale(1.2);
 }
