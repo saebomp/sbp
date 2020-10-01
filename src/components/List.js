@@ -1,18 +1,15 @@
-import React, { useState, useEffect, Typography } from 'react';
+import React, { Component } from 'react';
 
 //import Linkedin from '../../../images/linkedin.png';
 
-const List = (props) => (
-    <div className="items">
-      <div className="tPic">
-        <img title={props.imgtitle} src={props.src} alt={props.alt} />
+class List extends Component {
+  render() {
+    return (
+      <div className="main">
+        <h1>List</h1>
       </div>
-      <ul>
-        <li>{props.name}</li>
-        <li>{props.title}</li>
-        <li><a href={props.ahref} target="_blank">{props.ahref}</a></li>
-      </ul>
-  </div>
-);
-
-export default List;
+      );
+  }
+}
+  
+  export default List;
