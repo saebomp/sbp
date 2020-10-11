@@ -13,7 +13,7 @@ html, body {
 }
 
 .wrapper {
-  padding:50px 80px 70px 290px;
+  padding:50px 40px 70px 290px;
 }
 
 .wrapper> h1 {
@@ -58,6 +58,13 @@ nav .router {
 
 nav .router li {
   margin-bottom:20px;
+}
+
+/*Home */
+.container {
+  background-color: #fff;
+  border-radius: 20px;
+  padding:20px 0
 }
 
 /* Project */
@@ -149,8 +156,9 @@ nav .router li {
   }
 
   .itemContainer {
+    display: grid;
     grid-template-columns: 48% 48%;
-    grid-gap: 20px;
+    grid-gap: 24%;
   }
 }
 

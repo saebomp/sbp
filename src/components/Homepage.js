@@ -6,8 +6,10 @@ class Homepage extends Component {
     return (
       <div className="main">
         <div class="wrapper">
-        <h1>Home</h1>
-        <div>HELLo!!!!!!!!!!!!!!!!!I AM HERE</div>
+          <h1>Home</h1>
+          <div className="container">
+            HELLo!!!!!!!!!!!!!!!!!I AM HERE
+          </div>
         </div>
       </div>
     );
