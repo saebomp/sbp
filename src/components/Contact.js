@@ -5,9 +5,12 @@ class Contact extends Component {
     return (
       <div className="main">
         <div class="wrapper">
-
-        <h1>Contact</h1>
-        </div>
+          <h1>Contact</h1>
+          <div className="container">
+             Phone
+             Email
+            </div>
+          </div>
       </div>
       );
   }
