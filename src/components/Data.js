@@ -5,7 +5,7 @@ export let DATA = [
       src: require('../images/prj01.png'),
       alt:'school',
       name:'This is a school project',
-      title:'PHP, HTML, CSS, Responsive Web',
+      title:["PHP", "HTML", "CSS", "Responsive Web"],
       href:"https://www.school.com",
       desc:"This is my project I did it all by myself"
     },
@@ -15,7 +15,7 @@ export let DATA = [
       src: require('../images/prj02.png'),
       alt:'school',
       name:'This is a school project2',
-      title:'React, Node',
+      title:["React", "Node"],
       href:"https://www.school.com",
       desc:"This is my project I did it all by myself"
     },
@@ -25,7 +25,7 @@ export let DATA = [
       src: require('../images/prj01.png'),
       alt:'school',
       name:'This is a school project3',
-      title:'React, Node',
+      title:["React", "Node"],
       href:"https://www.school.com",
       desc:"This is my project I did it all by myself"
     },
@@ -35,7 +35,7 @@ export let DATA = [
       src: require('../images/prj02.png'),
       alt:'school',
       name:'This is a school project4',
-      title:'React, Node',
+      title:["React", "Node"],
       href:"https://www.school.com",
       desc:"This is my project I did it all by myself"
     }

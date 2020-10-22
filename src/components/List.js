@@ -18,7 +18,11 @@ const List = ({match}) => {
         <ul className="desc">
           <li>{item.name}</li>
           <li>{item.href}</li>
-          <li>{item.title}</li>
+          <li>
+            {item.title.map((list) => (
+              <span>{list}</span>
+            ))}
+          </li>
         </ul>
         <p>{item.desc}</p>
       </div>

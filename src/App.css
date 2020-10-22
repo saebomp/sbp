@@ -90,6 +90,16 @@ nav .router li {
 .items .linkWrapper ul li {
   margin-bottom: 10px;
   font-size:20px;
+  display: flex;
+  justify-content: flex-start;
+  color:#666
+}
+
+.items .linkWrapper ul li span {
+  border:1px solid #666;
+  border-radius: 12px;
+  padding:5px;
+  margin-right:10px
 }
 
 .items .tPic {
@@ -113,12 +123,20 @@ nav .router li {
 }
 
 .desc {
-  
   margin-top:15px;
 }
 
 .desc li {
   margin-bottom:10px;
+  justify-content: flex-start;
+  color:#666
+}
+
+.desc li span {
+  border:1px solid #666;
+  border-radius: 12px;
+  padding:3px;
+  margin-right:10px
 }
 
 /*responsive*/

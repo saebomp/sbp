@@ -9,21 +9,6 @@ export default function Project() {
       <div className="main">
         <div class="wrapper">
           <h1>Project</h1>
-          {/* <div className="itemContainer">
-            {items.map((item) => (
-              <Link to={`/Project/${item.id}`}>
-              <List
-                id={item.id}
-                imgtitle={item.imgtitle}
-                src={item.src}
-                alt={item.alt}
-                name={item.name}
-                title={item.title}
-                href={item.ahref}
-              />
-              </Link>
-            ))}
-          </div> */}
           <div className="itemContainer">
             {items.map((item) => (
               <div className="items">
@@ -34,7 +19,11 @@ export default function Project() {
                     </div>
                     <ul>
                       <li>{item.name}</li>
-                      <li>{item.title}</li>
+                      <li>
+                      {item.title.map((list) => (
+                      <span>{list}</span>
+                      ))}
+                      </li>
                       {/* <li><a href="{item.href}" target="_blank">{item.href}</a></li> */}
                     </ul>
                   </a>
