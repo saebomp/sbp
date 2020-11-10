@@ -19,7 +19,7 @@ export default function Project() {
                     </div>
                     <ul>
                       <li>{item.name}</li>
-                      <li>
+                      <li className="listStyle">
                       {item.title.map((list) => (
                       <span>{list}</span>
                       ))}
