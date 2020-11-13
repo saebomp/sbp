@@ -8,7 +8,7 @@ export default function Nav() {
     return (
     <nav>
         <div className="logo">
-            <Link to={process.env.PUBLIC_URL + 'sbp' + '/'}>
+            <Link to={process.env.PUBLIC_URL + '/'}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="62" height="67" viewBox="0 0 62 67">
                 <g transform="translate(-4)">
                     <text transform="translate(11 21)" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700">

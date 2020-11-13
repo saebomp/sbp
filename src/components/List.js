@@ -12,7 +12,7 @@ const List = ({match}) => {
       <div className="wrapper">
       <h1>{item.name}</h1>
       <div className="listWrapper">
-        <div>
+        <div className="imgContainer">
           <img title={item.imgtitle} src={item.src} alt={item.alt} className="prjImg" />
         </div>
         <ul className="desc">
@@ -23,8 +23,8 @@ const List = ({match}) => {
               <span>{list}</span>
             ))}
           </li>
+          <li><p>{item.desc}</p></li>
         </ul>
-        <p>{item.desc}</p>
       </div>
       </div>
     </div>

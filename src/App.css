@@ -117,14 +117,21 @@ nav .router li {
   padding-bottom:80px;
   color:#333;
   font-size:18px;
+  display:flex;
+  flex-direction: row;
 }
 
+.imgContainer {
+  width:50%;
+}
 
 .prjImg {
-  width:100%
+  width:100%;
 }
 
 .desc {
+  width: calc(50% - 30px);
+  margin-left: 30px;
   margin-top:15px;
 }
 
@@ -143,6 +150,19 @@ nav .router li {
 }
 
 /*responsive*/
+
+@media screen and (max-width: 1000px) {
+  .listWrapper {
+    display:block
+  }
+  .imgContainer {
+    width:100%;
+  }
+  .desc {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
 
 @media screen and (max-width: 780px) {
   nav {
