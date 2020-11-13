@@ -63,8 +63,12 @@ nav .router li {
 /*Home */
 .container {
   padding:20px 0;
-
 }
+.about {
+  font-size:24px;
+  line-height: 1.5;
+}
+
 
 /* Project */
 .itemContainer {

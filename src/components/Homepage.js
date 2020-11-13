@@ -8,12 +8,11 @@ class Homepage extends Component {
         <div class="wrapper">
           <h1>Home</h1>
           <div className="container">
-            <p>Welcome to my worrrrrrld</p>
-            <p>Sae Sae Pak</p>
-            <p>
-              나로 말할거 같으면
-              나는 어쩌구 저쩌구 사람
-              무슨무슨 경력 3년과 함께 어디학교를 졸업함. 어떤 스킬과 랭귀지 능력이 있음
+            <p className="about">
+            Welcome to my portfolio.<br />
+            I’m a front-end web developer based in Burnaby.<br />
+            While my focus is responsive websites with React, JavaScript, HTML and CSS, I also do love designing. I have some work experience as an web designer which menas that I am familiar with Adobe Photoshop, Illustrator and Premiere. 
+            I am always learning and passionate about my craft. 
             </p>
           </div>
         </div>
