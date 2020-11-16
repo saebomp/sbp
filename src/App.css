@@ -60,15 +60,21 @@ nav .router li {
   margin-bottom:20px;
 }
 
-/*Home */
-.container {
-  padding:20px 0;
-}
+/*about */
 .about {
-  font-size:24px;
+  font-size:22px;
   line-height: 1.5;
 }
-
+.about h4 {
+  font-weight: bold;
+  margin-top:30px;
+}
+.about li:nth-child(2n) {
+  margin-bottom:30px
+}
+.about li span {
+  font-size: 18px;
+}
 
 /* Project */
 .itemContainer {

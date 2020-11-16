@@ -11,8 +11,7 @@ class Homepage extends Component {
             <p className="about">
             {/* Welcome to my portfolio.<br /> */}
             I’m a front-end web developer based in Burnaby.<br />
-            While my focus is responsive websites with React, JavaScript, HTML and CSS, I also do love designing. I have some work experience as an web designer which menas that I am familiar with Adobe Photoshop, Illustrator and Premiere. 
-            I am always learning and passionate about my craft. 
+            3 years of experience as a UI developer, Collaborated with several companies and organizations such as National Assembly and Asiana Airlines in Korea. I am always learning and passionate about my craft. 
             </p>
           </div>
         </div>
@@ -22,3 +21,8 @@ class Homepage extends Component {
 }
   
   export default Homepage;
+
+  //menu hover하면 언더라인생기는거
+  //https://www.elegantthemes.com/blog/divi-resources/beautiful-css-hover-effects-you-can-add-to-your-divi-menus
+
+  //https://tympanus.net/codrops/2017/08/01/inspiration-for-menu-hover-effects/
