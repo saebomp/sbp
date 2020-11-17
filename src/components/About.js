@@ -13,6 +13,17 @@ class About extends Component {
               <li>Self-directed, motivated front-end developer who loves building user-friendly websites and web apps with best practices. Eagerness to improve developing skills, Focusing on clean and efficient code.</li>
               <li><h4>Skills</h4></li>
               <li>React / React Native / JavaScript / HTML5 / CSS / SASS / Github</li>
+              <li><h4>Projects</h4></li>
+              <li>
+                <u>Kovan</u><br /> 
+                Kovan is a solution to manage all kinds of small groups effectively. This was my capstone project for WMDD Langara college. It was built in 3 months by 5 developers.<br /> <br /> 
+
+                What I did:<br /> 
+                - Built To-do list and polling page with React Native<br /> 
+                - Implemented interactive graph chart with React Native svg<br /> 
+                - Applied consistent styling for Expenses page<br /> 
+                - Built the promotional website of Kovan with React <a href="https://kovanapp.com/" target="_blank">(https://kovanapp.com/)</a>
+              </li>
               <li><h4>Work Experience</h4></li>
               <li>
                 Littlefox <span>(2017~2018)</span> <br />
