@@ -82,12 +82,12 @@ nav .router li {
 }
 
 .menu_wrap .active {
-  color: #000;
+  color: #0486ff;
   font-weight: bold;
 }
 
 .menu_wrap .active .menu_item_name::before {
-  background: #1dc401;
+  background: #0486ff;
   transform: scale3d(1,1,1);
 }
 
@@ -107,7 +107,7 @@ nav .router li {
 }
 
 .menu_wrap .menu_item .menu_item_name::before {
-	background: #1dc401;
+	background: #0486ff;
 }
 
 .menu_wrap .menu_item:hover .menu_item_name::before,
