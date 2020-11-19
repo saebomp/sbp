@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 //style
 import './../App.css';
@@ -8,7 +8,7 @@ export default function Nav() {
     return (
     <nav>
         <div className="logo">
-            <Link to={process.env.PUBLIC_URL + '/'}>
+            <NavLink to={process.env.PUBLIC_URL + '/'}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="62" height="67" viewBox="0 0 62 67">
                 <g transform="translate(-4)">
                     <text transform="translate(11 21)" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700">
@@ -40,20 +40,28 @@ export default function Nav() {
                     </text>
                 </g>
                 </svg>
-            </Link>
+            </NavLink>
         </div>
-        <ul className="router">
+        <ul className="router menu menu_wrap">
+            {/* <li>
+                <NavLink to={process.env.PUBLIC_URL + '/'} className="menu_item">
+                    <span class="menu_item_name" activeClassName="active">Home</span>
+                </NavLink>
+            </li> */}
             <li>
-                <Link to={process.env.PUBLIC_URL + '/'}>Home</Link>
+                <NavLink to={process.env.PUBLIC_URL + '/'} className="menu_item" activeClassName="active">
+                    <span class="menu_item_name">About</span>
+                </NavLink>
             </li>
             <li>
-                <Link to="/About">About</Link>
+                <NavLink to="/Project" className="menu_item" activeClassName="active">
+                <span class="menu_item_name">Project</span>
+                </NavLink>
             </li>
             <li>
-                <Link to="/Project">Project</Link>
-            </li>
-            <li>
-                <Link to="/Contact">Contact</Link>
+                <NavLink to="/Contact" className="menu_item" activeClassName="active">
+                <span class="menu_item_name">Contact</span>
+                </NavLink>
             </li>
         </ul>
     </nav>

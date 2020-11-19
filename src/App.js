@@ -24,11 +24,11 @@ export default function App() {
     <Router>
         <Nav />
         <Switch>
-        <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}>
+        {/* <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}>
             <Home />
-          </Route>
-          <Route path="/About" component={About}>
-            <About />
+          </Route> */}
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}>
+            <Home />
           </Route>
           <Route path="/Project" exact component={Project}>
             <Project />
@@ -43,6 +43,6 @@ export default function App() {
 }
 
 const Home = () => (
-  <Homepage />
+  <About />
 );
 
