@@ -20,7 +20,7 @@ export default function Project() {
                     <ul>
                       <li>{item.name}</li>
                       <li className="listStyle">
-                      {item.title.map((list) => (
+                      {item.skill.map((list) => (
                       <span>{list}</span>
                       ))}
                       </li>

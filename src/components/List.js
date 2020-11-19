@@ -16,14 +16,21 @@ const List = ({match}) => {
           <img title={item.imgtitle} src={item.src} alt={item.alt} className="prjImg" />
         </div>
         <ul className="desc">
-          <li>{item.name}</li>
-          <li>{item.href}</li>
+          <li className="name">{item.name}</li>
+          <li><a href={item.href} target="_blank">{item.href}</a></li>
           <li className="listStyle">
-            {item.title.map((list) => (
+            {item.skill.map((list) => (
               <span>{list}</span>
             ))}
           </li>
-          <li><p>{item.desc}</p></li>
+        </ul>
+      </div>
+      <p className="wdesc">{item.desc1}</p>
+      <div className="wdesc">
+        <ul>
+        {item.desc2.map((lists) => (
+            <li>{lists}</li>
+          ))}
         </ul>
       </div>
       </div>

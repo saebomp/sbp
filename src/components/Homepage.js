@@ -22,7 +22,7 @@ class Homepage extends Component {
   
   export default Homepage;
 
-  //menu hover하면 언더라인생기는거
+  //menu hover effect
   //https://www.elegantthemes.com/blog/divi-resources/beautiful-css-hover-effects-you-can-add-to-your-divi-menus
 
   //https://tympanus.net/codrops/2017/08/01/inspiration-for-menu-hover-effects/
