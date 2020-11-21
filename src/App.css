@@ -188,7 +188,7 @@ nav .router li {
 }
 
 .imgContainer {
-  width:50%;
+  width:70%;
 }
 
 .prjImg {
@@ -202,7 +202,7 @@ nav .router li {
 }
 
 .desc {
-  width: calc(50% - 30px);
+  width: calc(30% - 30px);
   margin-left: 30px;
   margin-top:15px;
 }
@@ -216,9 +216,10 @@ nav .router li {
 .desc li span {
   border:1px solid #999;
   border-radius: 8px;
-  padding:3px;
-  margin-right:10px;
+  padding:3px 6px;
+  margin:0 10px 5px 0;
   font-size:14px;
+  display: inline-block;
 }
 
 .wdesc {
@@ -277,7 +278,7 @@ nav .router li {
   .itemContainer {
     display: grid;
     grid-template-columns: 48% 48%;
-    grid-gap: 24%;
+    grid-gap: 4%;
   }
 }
 
