@@ -39,7 +39,7 @@ export let DATA = [
       name:'National Assembly Minutes',
       skill:["HTML", "CSS", "Web Accessibility"],
       href:"http://likms.assembly.go.kr/record/",
-      desc1:"This was built from 2016 Aug to 2016 Dec. I implemented web accessibility with Web Content Accessibility Guidelines (WCAG). I was able to gain a greater comprehension of cross-browsing",
+      desc1:"This was built from 2016 Aug to 2016 Dec when I worked as a UI developer. I implemented web accessibility with Web Content Accessibility Guidelines (WCAG). I was able to gain a greater comprehension of cross-browsing",
       desc2:[]
     },
     {
