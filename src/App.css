@@ -13,7 +13,7 @@ html, body {
 }
 
 .wrapper {
-  padding:50px 40px 70px 290px;
+  padding:50px 40px 70px 280px;
 }
 
 .wrapper> h1 {
@@ -123,13 +123,42 @@ nav .router li {
 }
 .about h4 {
   font-weight: bold;
-  margin-top:30px;
+  margin-top:40px;
+  position: relative;
+  padding-left: 15px;
 }
-.about li:nth-child(2n) {
-  margin-bottom:30px
+
+.about h4::before {
+  background-color:#FFD542;
+  width:8px;
+  height:18px;
+  content:"";
+  display: block;
+  position: absolute;
+  top:6px;
+  left:0
 }
-.about li span {
+
+.about h5 {
+  margin-top:15px;
+  font-weight: 700;
+}
+.about span {
   font-size: 18px;
+  color:#333;
+  font-weight: normal;
+}
+
+.about ul li {
+  list-style-position: outside;
+}
+
+.about ul li::before {
+  content:"- "
+}
+
+.about h6 {
+  margin-top:15px;
 }
 
 /* Project */
@@ -228,6 +257,57 @@ nav .router li {
   margin-bottom:20px;
 }
 
+/*contact*/
+.contact {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  padding-left:30px;
+}
+
+.bg1 {
+  background-image: url(./images/email.png);
+  background-position:0 10px;
+}
+
+.bg2 {
+  background-image: url(./images/phone.png);
+  background-position:0 6px;
+}
+
+.bg3 {
+  background-image: url(./images/add.png);
+  background-position:0 4px;
+}
+
+.bg4 {
+  background-image: url(./images/git.png);
+  background-position:0 6px;
+}
+
+.bg5 {
+  background-image: url(./images/linkedin.png);
+  background-position:0 6px;
+}
+
+.bg6 {
+  background-image: url(./images/home.png);
+  background-position:0 4px;
+}
+
+.contact ul {
+  width:50%; 
+  float: left;
+}
+
+.contact ul li a {
+  color:#000
+}
+
+
 /*responsive*/
 
 @media screen and (max-width: 1000px) {
@@ -280,6 +360,11 @@ nav .router li {
     grid-template-columns: 48% 48%;
     grid-gap: 4%;
   }
+  .contact ul {
+    width:100%; 
+    float: none;
+  }
+  
 }
 
 @media screen and (max-width: 480px) {
