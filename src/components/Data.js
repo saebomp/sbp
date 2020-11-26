@@ -6,6 +6,7 @@ export let DATA = [
       alt:'school',
       name:'KOVAN',
       skill:["React Native", "React", "Responsive Web"],
+      period:'May 2020 - Aug 2020',
       href:"https://kovanapp.com/",
       desc1:"Kovan is a solution to manage all kinds of small groups effectively. This was my capstone project for WMDD Langara college. It was built in 3 months by 5 developers.",
       desc2:[
@@ -23,6 +24,7 @@ export let DATA = [
       alt:'movie app',
       name:'Movie App',
       skill:["React", "Responsive Web"],
+      period:'October 2020',
       href:"https://www.school.com",
       // desc1:"This is my project I did it all by myself",
       desc2:[
@@ -38,6 +40,7 @@ export let DATA = [
       alt:'National Assembly Minutes',
       name:'National Assembly Minutes',
       skill:["HTML", "CSS", "Web Accessibility"],
+      period:'Aug 2016 - Dec 2016',
       href:"http://likms.assembly.go.kr/record/",
       desc1:"This was built from 2016 Aug to 2016 Dec when I worked as a UI developer. I implemented web accessibility with Web Content Accessibility Guidelines (WCAG). I was able to gain a greater comprehension of cross-browsing",
       desc2:[]

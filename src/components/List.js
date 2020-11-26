@@ -23,6 +23,7 @@ const List = ({match}) => {
               <span>{list}</span>
             ))}
           </li>
+          <li>{item.period}</li>
         </ul>
       </div>
       <p className="wdesc">{item.desc1}</p>

@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { DATA }  from './Data';
 
@@ -25,6 +25,7 @@ export default function Project() {
                       ))}
                       </li>
                       {/* <li><a href="{item.href}" target="_blank">{item.href}</a></li> */}
+                      <li>{item.period}</li>
                     </ul>
                   </a>
                 </Link>
