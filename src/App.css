@@ -191,10 +191,10 @@ nav .router li {
 }
 
 .items .linkWrapper ul li span {
-  border:1px solid #666;
-  border-radius: 8px;
-  padding:5px;
-  margin-right:10px;
+  border:1px solid #dedede;
+  border-radius: 12px;
+  padding:5px 6px;
+  margin-right:5px;
   font-size:14px
 }
 
@@ -243,10 +243,10 @@ nav .router li {
 }
 
 .desc li span {
-  border:1px solid #999;
-  border-radius: 8px;
-  padding:3px 6px;
-  margin:0 10px 5px 0;
+  border:1px solid #dedede;
+  border-radius: 11px;
+  padding:4px 6px;
+  margin:0 5px 0px 0;
   font-size:14px;
   display: inline-block;
 }
