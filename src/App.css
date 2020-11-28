@@ -13,7 +13,8 @@ html, body {
 }
 
 .wrapper {
-  padding:50px 40px 70px 280px;
+  max-width: 1140px;
+  margin:0 auto;
 }
 
 .wrapper> h1 {
@@ -30,11 +31,11 @@ nav {
   left:0;
   bottom:0;
   background:#f7f7f7;
-  width:200px;
+  width: 100%;
+  height:105px;
   display: flex;
   z-index: 100;
   box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
-  height:100%;
   overflow:hidden;
   color:#000;
 }
@@ -43,18 +44,27 @@ nav a {
   color:#000;
 }
 
+nav .nav_wrapper {
+  margin:0 auto;
+  max-width: 1140px;
+  display: flex;
+}
+
 nav .logo {
-  margin-top:50px;
-  margin-left:24px;
+  margin-top: 17px;
 }
 
 nav .router {
-  margin-top:50px;
-  margin-left:24px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top:53px;
+  margin-left: 0;
+  width:100%;
 }
 
 nav .router li {
-  margin-bottom:20px;
+  flex-direction: column;
+  margin-left: 110px;
 }
 
 /*hover effect*/
@@ -66,7 +76,6 @@ nav .router li {
 	position: relative;
 	display: block;
 	outline: none;
-	margin: 0 0 1.5em;
 	line-height: 1;
 }
 
@@ -114,6 +123,89 @@ nav .router li {
 .menu_wrap .menu_item:focus .menu_item_name::before {
 	transform: scale3d(1,1,1);
 }
+
+/*intro*/
+.intro {
+  /* background-color: #ffe3e4; */
+  background-color: #052a58;
+  width:100%;
+  margin-top:105px;
+  padding:100px 0;
+  overflow: hidden;
+  color:#fff
+}
+.intro .center {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro h1 {
+  font-size: 50px;
+  padding:0 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.intro p {
+  font-size: 20px;
+  padding:0 50px;
+  text-align: center;
+  margin-top: 45px;
+  line-height: 1.5;
+}
+
+.text {
+  position: absolute;
+  padding:0px 20px;
+  max-width:1140px;
+  box-sizing: border-box; 
+  z-index: 9999;
+
+
+}
+/*wave*/
+@keyframes wave {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(90deg);}
+  50% { transform: rotate(180deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.one {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  height: 300px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  cursor: default;
+  -webkit-filter: url(#wave);
+  filter: url(#wave);
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+}
+
+.circle:before, .circle:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  height: 310px;
+  width: 310px;
+  background: #f35041;
+}
+.circle:before {
+  border-radius: 43% 45% 40% 42%;
+  animation: wave 10s infinite linear;
+}
+.circle:after {
+  border-radius: 43% 45% 40% 42%;
+  animation: wave 4s infinite linear;
+}
+
 
 
 /*about */
@@ -325,36 +417,6 @@ nav .router li {
 }
 
 @media screen and (max-width: 780px) {
-  nav {
-    width: 100%;
-    height:160px;
-  }
-  nav .logo {
-    margin-top: 17px;
-    position: absolute;
-    left:50%;
-    transform: translate(-50%, 0);
-    margin-left:0
-  }
-  nav .router {
-    position: absolute;
-    top: 85px;
-    left:50%;
-    transform: translate(-50%, 0);
-    display: flex;
-    justify-content: space-evenly;
-    margin-top:30px;
-    margin-left: 0;
-    width:100%;
-  }
-  nav .router li {
-    flex-direction: column;
-  }
-
-  .wrapper {
-    padding: 200px 30px 100px;
-  }
-
   .itemContainer {
     display: grid;
     grid-template-columns: 48% 48%;
