@@ -3,6 +3,12 @@ import { Link, NavLink } from "react-router-dom";
 
 //style
 import './../App.css';
+const checkActive = (match, location) => {
+    if(!location) return false;
+    const {pathname} = location;
+    console.log(pathname);
+    return pathname === "/";
+}
 
 export default function Nav() {
     return (
@@ -49,7 +55,7 @@ export default function Nav() {
                 </NavLink>
             </li> */}
             <li>
-                <NavLink onlyActiveOnIndex to="/" className="menu_item" activeClassName="active">
+                <NavLink to="/" className="menu_item" activeClassName="active" isActive={checkActive}>
                     <span class="menu_item_name">About</span>
                 </NavLink>
             </li>
