@@ -49,7 +49,7 @@ export default function Nav() {
                 </NavLink>
             </li> */}
             <li>
-                <NavLink to={'/'} className="menu_item" activeClassName="active">
+                <NavLink to={'/About'} className="menu_item" activeClassName="active">
                     <span class="menu_item_name">About</span>
                 </NavLink>
             </li>
