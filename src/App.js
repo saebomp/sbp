@@ -27,7 +27,7 @@ export default function App() {
         {/* <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}>
             <Home />
           </Route> */}
-          <Route path={"/About"} exact component={Home}>
+          <Route path="/" exact component={Home}>
             <Home />
           </Route>
           <Route path="/Project" exact component={Project}>
