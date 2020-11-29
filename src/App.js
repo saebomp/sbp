@@ -1,14 +1,10 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import React, { useEffect }  from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //components
 import Nav from './components/Nav';
 import Homepage from './components/Homepage';
+import Intro from './components/Intro';
 import Project from './components/Project';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -30,6 +26,12 @@ export default function App() {
           <Route path="/" exact component={Home}>
             <Home />
           </Route>
+          <Route path="/Intro" exact component={Intro}>
+            <Intro />
+          </Route>
+          <Route path="/About" component={About}>
+            <About />
+          </Route>
           <Route path="/Project" exact component={Project}>
             <Project />
           </Route>
@@ -43,6 +45,6 @@ export default function App() {
 }
 
 const Home = () => (
-  <About />
+  <Homepage />
 );
 
