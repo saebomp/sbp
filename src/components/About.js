@@ -6,9 +6,6 @@ class About extends Component {
         <h1 id="About">About</h1>
         <div className="container">
           <div className="about">
-            <h4>Skills</h4>
-            <p>React / React Native / JavaScript / GraphQL / HTML5 / CSS / SASS / Github</p>
-
             <h4>Work Experience</h4>
             <h5>Littlefox <span>/ UI developer (Jan 2017 - Aug 2018)</span></h5>
             <ul>

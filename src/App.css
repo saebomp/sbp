@@ -22,7 +22,8 @@ html, body {
   text-transform: uppercase;
   margin-bottom:75px;
   font-weight: bold;
-  color:#1d1d2c
+  color:#1d1d2c;
+  padding-top:110px;
 }
 /* Navigation */
 nav {
@@ -30,19 +31,19 @@ nav {
   top:0;
   left:0;
   bottom:0;
-  background:#f7f7f7;
+  background:#052a58;
   width: 100%;
   height:105px;
   display: flex;
   z-index: 100;
-  box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
+  /* box-shadow: 0 10px 25px 0 rgba(0,0,0,.1); */
   overflow:hidden;
   color:#000;
   z-index: 99;
 }
 
 nav a {
-  color:#000;
+  color:#fff;
 }
 
 nav .nav_wrapper {
@@ -133,7 +134,7 @@ nav .router li {
   overflow: hidden;
   color:#fff
 }
-.intro .center {
+.center {
   max-width: 1140px;
   margin: 0 auto;
   position: relative;
@@ -159,9 +160,33 @@ nav .router li {
   max-width:1140px;
   box-sizing: border-box; 
   z-index: 9;
+}
 
+.skill h2 {
+  margin: 90px 0;
+  font-weight: bold;
+  color:#999;
+  font-size: 22px;
+  text-align: center;
+  font-family: "open sans", sans-serif;
+}
+
+.skill .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.skill .icons span {
+  display: inline-block;
+  text-align: center;
 
 }
+
+.skill .icons span em {
+  text-align: center;
+  display: block;
+}
+
 /*wave*/
 @keyframes wave {
   0% { transform: rotate(0deg);}
