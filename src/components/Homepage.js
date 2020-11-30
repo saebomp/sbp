@@ -4,6 +4,7 @@ import Intro from './Intro'
 import About from './About'
 import Contact from './Contact'
 import Project from './Project'
+import Footer from './Footer'
 
 
 class Homepage extends Component {
@@ -11,9 +12,10 @@ class Homepage extends Component {
     return (
       <div className="main">
         <Intro />
-        <About />
         <Project />
-        <Contact />
+        <About />
+        {/* <Contact /> */}
+        {/* <Footer /> */}
       </div>
     );
   }

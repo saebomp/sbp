@@ -69,17 +69,6 @@ export default function Nav() {
                 </li>
                 <li>
                     <NavLink 
-                        to="#About" 
-                        className="menu_item" 
-                        activeClassName="selected" 
-                        smooth
-                        isActive={checkActive}
-                    >
-                        <span class="menu_item_name">About</span>
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink 
                         to="#Project" 
                         className="menu_item"
                         activeClassName="selected"
@@ -90,6 +79,17 @@ export default function Nav() {
                 </li>
                 <li>
                     <NavLink 
+                        to="#About" 
+                        className="menu_item" 
+                        activeClassName="selected" 
+                        smooth
+                        isActive={checkActive}
+                    >
+                        <span class="menu_item_name">About</span>
+                    </NavLink>
+                </li>
+                {/* <li>
+                    <NavLink 
                         to="#Contact" 
                         className="menu_item" 
                         activeClassName="selected"
@@ -97,7 +97,7 @@ export default function Nav() {
                     >
                     <span class="menu_item_name">Contact</span>
                     </NavLink>
-                </li>
+                </li> */}
             </ul>
         </div>
     </nav>
