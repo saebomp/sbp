@@ -8,7 +8,7 @@ export default function Project() {
 
     return (
       <div className="wrapper" id="Project">
-        <h2 className="heading">Project</h2>
+        <h2 className="heading">Projects</h2>
         <div className="itemContainer">
           {items.map((item) => (
             <div className="items">
