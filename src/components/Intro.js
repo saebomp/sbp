@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from '../images/resume_Saebom.pdf'
 
 class Intro extends Component {
   render() {
@@ -10,7 +11,11 @@ class Intro extends Component {
             <h1>Hello, I’m Sae<br />Front-end developer</h1>
             <p>A self-directed, motivated front-end developer who loves building user-friendly websites and web apps with best practices. 
 Eager to improve development skills with a focus on clean and efficient code</p>
-            <div className="download">DOWNLOAD RESUME</div>
+            <div className="download">
+              <a href = {Pdf} target = "_blank">
+              DOWNLOAD RESUME
+              </a>
+            </div>
           </div>
           <div class="one">
             <div class="circle">
