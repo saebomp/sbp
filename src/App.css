@@ -178,6 +178,10 @@ nav .router li {
   color:#f54f3f;
 }
 
+.download a:hover {
+  font-weight:bold
+}
+
 h2.heading {
   margin: 90px 0;
   font-weight: bold;
