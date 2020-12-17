@@ -192,11 +192,11 @@ h2.heading {
   text-transform: uppercase;
 }
 
-.skill .icons {
+/* .skill .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
+} */
 .skill .icons span {
   display: inline-block;
   text-align: center;
