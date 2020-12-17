@@ -306,9 +306,6 @@ h2.heading {
 }
 
 /* Project */
-.itemContainer {
-
-}
 
 .items {
   border-radius: 5px;
@@ -475,6 +472,12 @@ h2.heading {
 
 /*responsive*/
 
+@media screen and (max-width: 1140px) {
+  .nav_wrapper, .center {
+    padding:0 20px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .listWrapper {
     display:block;
@@ -499,7 +502,6 @@ h2.heading {
     width:100%; 
     float: none;
   }
-  
 }
 
 @media screen and (max-width: 480px) {
