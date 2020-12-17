@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Pdf from '../images/resume_Saebom.pdf'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 class Intro extends Component {
   render() {
@@ -77,3 +79,6 @@ Eager to improve development skills with a focus on clean and efficient code</p>
 }
   
   export default Intro;
+
+
+  //https://www.npmjs.com/package/react-multi-carousel
