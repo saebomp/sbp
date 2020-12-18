@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { DATA }  from './Data';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 
 export default function Project() {
     const [items,setItems] = useState(DATA);
@@ -11,10 +14,25 @@ export default function Project() {
         <h2 className="heading">Projects</h2>
         <div className="itemContainer">
           {items.map((item) => (
-            <div className="items">
+            <div 
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-delay="50"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              // data-aos-anchor-placement="top-center"
+              className="items"
+            >
               {/* <Link to={`/Project/${item.id}`}> */}
                 <a className="linkWrapper">
-                  <div className="tPic">
+                  <div 
+                    className="tPic"
+                    data-aos="flip-left"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                  >
                     <img title={item.imgtitle} src={item.src} alt={item.alt} />
                   </div>
                   <ul>

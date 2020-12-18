@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import Pdf from '../images/resume_Saebom.pdf'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
-AOS.init();
 
 const responsive = {
   desktop: {
