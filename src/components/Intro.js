@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Pdf from '../images/resume_Saebom.pdf'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const responsive = {
   desktop: {
@@ -132,3 +136,6 @@ Eager to improve development skills with a focus on clean and efficient code</p>
 
   //https://www.npmjs.com/package/react-multi-carousel
   //https://w3js.com/react-multi-carousel
+
+  //https://github.com/michalsnik/aos
+  //
