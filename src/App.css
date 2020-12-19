@@ -493,11 +493,6 @@ h2.heading {
 }
 
 @media screen and (max-width: 780px) {
-  .itemContainer {
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-gap: 4%;
-  }
   .contact ul {
     width:100%; 
     float: none;
