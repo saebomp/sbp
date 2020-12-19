@@ -133,6 +133,3 @@ Eager to improve development skills with a focus on clean and efficient code</p>
 
   //https://www.npmjs.com/package/react-multi-carousel
   //https://w3js.com/react-multi-carousel
-
-  //https://github.com/michalsnik/aos
-  //
