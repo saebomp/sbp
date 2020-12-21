@@ -45,6 +45,7 @@ nav {
 
 nav a {
   color:#fff;
+  display:block
 }
 
 nav .nav_wrapper {
@@ -263,7 +264,7 @@ h2.heading {
 .about {
   font-size:22px;
   line-height: 1.5;
-  padding-bottom:100px;
+  padding: 0 15px 100px;
 }
 .about h4 {
   font-weight: bold;
@@ -306,6 +307,9 @@ h2.heading {
 }
 
 /* Project */
+.itemContainer {
+  padding:0px 15px
+}
 
 .items {
   border-radius: 5px;
@@ -320,11 +324,11 @@ h2.heading {
 .items .linkWrapper {
   display: grid;
   grid-template-columns:50% 50%;
-  grid-gap: 30px;
 }
 
 .items .linkWrapper ul {
   color:#333;
+  padding:15px 25px;
 }
 
 .items .linkWrapper ul li {
@@ -494,12 +498,35 @@ h2.heading {
     width: 100%;
     margin-left: 0px;
   }
+  .items .linkWrapper {
+    display: block;
+  }
+  .items .linkWrapper ul {
+    padding:15px 0
+  }
+
 }
 
 @media screen and (max-width: 780px) {
   .contact ul {
     width:100%; 
     float: none;
+  }
+  nav .nav_wrapper{
+    display:block
+  }
+  nav {
+    height:160px
+  }
+  nav a {
+   text-align: center;
+  }
+  nav .router {
+    justify-content:space-around;
+    margin-top:35px;
+  }
+  nav .router li {
+    margin-left: 0;
   }
 }
 
