@@ -43,8 +43,12 @@ export default function Project() {
                     <span>{list}</span>
                     ))}
                     </li>
-                    {/* <li><a href="{item.href}" target="_blank">{item.href}</a></li> */}
-                    <li>{item.period}</li>
+                    <li><a href={item.href} target="_blank">{item.href}</a></li>
+                    {/* <li>{item.period}</li> */}
+                    <li>{item.desc1}</li>
+                    {item.desc2.map((li) => (
+                    <li>{li}</li>
+                    ))}
                   </ul>
                 </a>
               {/* </Link> */}

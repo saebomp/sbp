@@ -349,6 +349,10 @@ h2.heading {
   font-size:14px
 }
 
+.items .linkWrapper ul li a {
+  color:#052a58
+}
+
 .items .tPic {
   object-fit: cover;
   overflow: hidden;

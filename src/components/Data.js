@@ -8,18 +8,18 @@ export let DATA = [
       skill:["React Native", "React", "Responsive Web"],
       period:'May 2020 - Aug 2020',
       href:"https://kovanapp.com/",
-      desc1:"Kovan is a solution to manage all kinds of small groups effectively. This was my capstone project for WMDD Langara college. It was built in 3 months by 5 developers.",
+      desc1:"Kovan is an application that manages effectively small groups",
       desc2:[
         "What I did:",
         "- Built To-do list and polling page with React Native",
         "- Implemented interactive graph chart with React Native svg",
-        "- Applied consistent styling for Expenses page",
+        "- Applied consistent styling for expenses page",
         "- Built the promotional website of Kovan with React" 
       ]
     },
     {
       id:2,
-      imgtitle: 'movie app',
+      imgtitle: 'Smart Movie and TV Finder',
       src: require('../images/p02.png'),
       alt:'movie app',
       name:'Movie App',
@@ -28,8 +28,8 @@ export let DATA = [
       href:"https://www.school.com",
       // desc1:"This is my project I did it all by myself",
       desc2:[
-        "- Requested to movie API and displayed movie and tv lists.",
-        "- Upon selecting another selection from that dropdown box, the list of results should update to reflect the updated response from the new query.",
+        "- Smart Movie and TV Finder provides movie and tv shows lists upon user's request.",
+        "- Upon selecting another selection from that dropdown box, the list of results refresh to reflect the updated response from the new query.",
         "- Utilized React and Material UI"
       ]
     },
@@ -42,8 +42,10 @@ export let DATA = [
       skill:["HTML", "CSS", "Web Accessibility"],
       period:'Aug 2016 - Dec 2016',
       href:"http://likms.assembly.go.kr/record/",
-      desc1:"This was built from 2016 Aug to 2016 Dec when I worked as a UI developer. I implemented web accessibility with Web Content Accessibility Guidelines (WCAG). I was able to gain a greater comprehension of cross-browsing",
-      desc2:[]
+      // desc1:" was built ",
+      desc2:[
+        "Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Improved time management skills when working with clients."
+      ]
     },
     {
       id:4,
