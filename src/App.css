@@ -504,7 +504,21 @@ h2.heading {
   .items .linkWrapper ul {
     padding:15px 0
   }
-
+  .circle, .one {
+    width:200px;
+    height:200px;
+  }
+  .circle:before, .circle:after {
+    width:200px;
+    height:200px;
+    transition: all 0.5s;
+  }
+  .intro h1 {
+    font-size: 35px;
+  }
+  .intro p {
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -527,6 +541,16 @@ h2.heading {
   }
   nav .router li {
     margin-left: 0;
+  }
+  .intro h1 {
+    font-size: 22px;
+  }
+  .intro p {
+    font-size: 16px;
+    padding:0
+  }
+  .download {
+    font-size: 14px;
   }
 }
 
