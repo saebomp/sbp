@@ -25,8 +25,8 @@ export let DATA = [
       name:'Smart Movie and TV Finder',
       skill:["React", "Responsive Web"],
       period:'October 2020',
-      href:"https://www.school.com",
-      // desc1:"This is my project I did it all by myself",
+      href:"https://saebomp.github.io/movie_app",
+      // desc1:"",
       desc2:[
         "- Smart Movie and TV Finder provides movie and tv shows lists upon user's request.",
         "- Upon selecting another selection from that dropdown box, the list of results refresh to reflect the updated response from the new query.",
@@ -42,7 +42,7 @@ export let DATA = [
       skill:["HTML", "CSS", "Web Accessibility"],
       period:'Aug 2016 - Dec 2016',
       href:"http://likms.assembly.go.kr/record/",
-      // desc1:" was built ",
+      // desc1:"",
       desc2:[
         "Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Improved time management skills when working with clients."
       ]
@@ -55,7 +55,7 @@ export let DATA = [
       name:'This is a school project4',
       skill:["React", "Node"],
       href:"https://www.school.com",
-      desc1:"This is my project I did it all by myself",
-      desc2:["옹", "무엇"]
+      desc1:"This is my project",
+      desc2:["1", "2"]
     }
 ]
