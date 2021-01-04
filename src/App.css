@@ -336,7 +336,7 @@ h2.heading {
   font-size:20px;
   display: flex;
   justify-content: flex-start;
-  color:#666
+  color:#666;
 }
 
 .items .linkWrapper ul li.itemname {

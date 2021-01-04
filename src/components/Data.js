@@ -5,7 +5,7 @@ export let DATA = [
       src: require('../images/p01.png'),
       alt:'school',
       name:'KOVAN',
-      skill:["React Native", "React", "Responsive Web"],
+      skill:["React Native", "React", "Responsive Web", "NativeBase"],
       period:'May 2020 - Aug 2020',
       href:"https://kovanapp.com/",
       desc1:"Kovan is an application that manages effectively small groups",
@@ -23,7 +23,7 @@ export let DATA = [
       src: require('../images/p02.png'),
       alt:'Smart Movie and TV Finder',
       name:'Smart Movie and TV Finder',
-      skill:["React", "Responsive Web"],
+      skill:["React", "Responsive Web", "CSS", "Material-UI"],
       period:'October 2020',
       href:"https://saebomp.github.io/movie_app",
       // desc1:"",
@@ -35,6 +35,17 @@ export let DATA = [
     },
     {
       id:3,
+      imgtitle: 'News app',
+      src: require('../images/p04.png'),
+      alt:'News app',
+      name:'News app',
+      skill:["React", "Responsive Web", "GraphQl", "CSS", "Ant Design"],
+      href:"https://www.school.com",
+      desc1:"This is my projectn",
+      desc2:["1", "2"]
+    },
+    {
+      id:4,
       imgtitle: 'National Assembly Minutes',
       src: require('../images/p03.png'),
       alt:'National Assembly Minutes',
@@ -47,15 +58,5 @@ export let DATA = [
         "Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Improved time management skills when working with clients."
       ]
     },
-    {
-      id:4,
-      imgtitle: 'school',
-      src: require('../images/prj02.png'),
-      alt:'school',
-      name:'This is a school project4',
-      skill:["React", "Node"],
-      href:"https://www.school.com",
-      desc1:"This is my project",
-      desc2:["1", "2"]
-    }
+    
 ]

@@ -38,7 +38,7 @@ class About extends Component {
             Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Improved time management skills when working with clients.</p>
 
             <h4>Education</h4>
-            <p>Web and Mobile App Design and Development, Langara College</p>
+            <p>Web and Mobile App Design and Development, Langara College (Vancouver, BC)</p>
           </div>
         </div>
       </div>
