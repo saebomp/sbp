@@ -41,8 +41,11 @@ export let DATA = [
       name:'News app',
       skill:["React", "Responsive Web", "GraphQl", "CSS", "Ant Design"],
       href:"https://www.school.com",
-      desc1:"This is my projectn",
-      desc2:["1", "2"]
+      // desc1:"This is my projectn",
+      desc2:[
+        "- Fetched data from a REST Endpoint with Apollo using GraphQL query language", 
+        "- Displayed results from the remote API endpoint"
+      ]
     },
     {
       id:4,
