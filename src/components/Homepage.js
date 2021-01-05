@@ -15,7 +15,7 @@ class Homepage extends Component {
         <Project />
         <About />
         {/* <Contact /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

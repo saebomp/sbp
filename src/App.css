@@ -469,12 +469,31 @@ h2.heading {
 
 /*Footer*/
 .footer {
-  background-color: #052a58;
+  background-color: #fdf3eb;
 }
 
 .footer .copyright {
   padding:20px;
-  color:#fff
+  color:#f54f3f;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer .copyright span { 
+  flex-direction: row;
+  margin:0 5px
+}
+
+.footer .copyright span:last-child {
+  padding-top:2px
+}
+
+.MuiSvgIcon-root {
+  fill:#f54f3f !important
+}
+
+.MuiSvgIcon-root:hover {
+  fill:#052a58 !important
 }
 
 
