@@ -41,6 +41,7 @@ nav {
   overflow:hidden;
   color:#000;
   z-index: 99;
+  transition: all 0.5s;
 }
 
 nav a {
@@ -69,6 +70,21 @@ nav .router {
 nav .router li {
   flex-direction: column;
   margin-left: 110px;
+}
+
+nav.scroll {
+  height:85px;
+  transition: all 0.5s;
+}
+
+nav.scroll .router {
+  margin-top:42px;
+  transition: all 0.5s;
+}
+
+nav.scroll .logo {
+  margin-top:8px;
+  transition: all 0.5s;
 }
 
 /*hover effect*/
@@ -548,7 +564,7 @@ h2.heading {
   nav .nav_wrapper{
     display:block
   }
-  nav {
+  nav.scroll {
     height:160px
   }
   nav a {

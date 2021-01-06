@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 // import { NavLink, Link } from "react-router-dom";
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
@@ -10,10 +10,23 @@ const checkActive = (match, location) => {
     console.log(pathname);
     return pathname === "/";
 }
-
-export default function Nav() {
+class Nav extends Component {
+    componentDidMount() {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+      componentWillUnmount() {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+      handleScroll = () => {
+        if (window.scrollY > 510) {
+          document.querySelector(".nav").className = "nav scroll";
+        } else {
+          document.querySelector(".nav").className = "nav";
+        }
+      };
+    render() {
     return (
-    <nav>
+    <nav className="nav">
         <div className="nav_wrapper">
             <div className="logo">
                 <NavLink to="/#">
@@ -102,4 +115,7 @@ export default function Nav() {
         </div>
     </nav>
     )
+            }
 }
+
+export default Nav
