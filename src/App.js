@@ -38,7 +38,6 @@ export default function App() {
           <Route path="/Contact" component={Contact}>
             <Contact />
           </Route>
-          <Route path="/Project/:id" component={List} />
         </Switch>
       </Router>
   );

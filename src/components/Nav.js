@@ -18,7 +18,7 @@ class Nav extends Component {
         window.removeEventListener("scroll", this.handleScroll);
       }
       handleScroll = () => {
-        if (window.scrollY > 510) {
+        if (window.scrollY > 490) {
           document.querySelector(".nav").className = "nav scroll";
         } else {
           document.querySelector(".nav").className = "nav";
