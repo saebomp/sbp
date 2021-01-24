@@ -40,7 +40,6 @@ nav {
   /* box-shadow: 0 10px 25px 0 rgba(0,0,0,.1); */
   overflow:hidden;
   color:#000;
-  z-index: 99;
   transition: all 0.5s;
 }
 
@@ -200,7 +199,7 @@ nav.scroll .logo {
 }
 
 h2.heading {
-  margin: 90px 0;
+  margin: 85px 0;
   font-weight: bold;
   color:#999;
   font-size: 22px;
@@ -278,7 +277,7 @@ h2.heading {
 
 /*about */
 .about {
-  font-size:22px;
+  font-size: 20px;
   line-height: 1.5;
   padding: 0 15px 100px;
 }
@@ -349,10 +348,21 @@ h2.heading {
 
 .items .linkWrapper ul li {
   margin-bottom: 10px;
-  font-size:20px;
+  font-size:18px;
   display: flex;
   justify-content: flex-start;
-  color:#666;
+  color:#666; 
+  line-height: 1.2;
+}
+
+.items .linkWrapper .desclist {
+ padding:15px 25px
+}
+
+.items .linkWrapper .desclist li:before { 
+  content: '-'; 
+  margin-left: -20px;
+  margin-right: 10px; 
 }
 
 .items .linkWrapper ul li.itemname {

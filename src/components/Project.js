@@ -17,7 +17,7 @@ export default function Project() {
           {items.map((item) => (
             <div 
               data-aos="fade-up"
-              data-aos-offset="280"
+              data-aos-offset="180"
               data-aos-delay="50"
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
@@ -44,11 +44,15 @@ export default function Project() {
                     ))}
                     </li>
                     <li><a href={item.href} target="_blank">{item.href}</a></li>
-                    {/* <li>{item.period}</li> */}
-                    <li>{item.desc1}</li>
-                    {item.desc2.map((li) => (
-                    <li>{li}</li>
-                    ))}
+                    <div className="desclist">
+                      {item.desc1 ? (
+                      <li>{item.desc1}</li>
+                      ): ( null
+                      )}
+                      {item.desc2.map((li) => (
+                      <li>{li}</li>
+                      ))}
+                  </div>
                   </ul>
                 </a>
               {/* </Link> */}
