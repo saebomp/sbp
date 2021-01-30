@@ -15,7 +15,6 @@ html, body {
 .wrapper {
   max-width: 1140px;
   margin:0 auto;
-  padding-top:50px
 }
 
 .wrapper> h1 {

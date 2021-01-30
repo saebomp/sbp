@@ -5,7 +5,7 @@ export let DATA = [
       src: require('../images/p01.png'),
       alt:'kovan',
       name:'KOVAN',
-      skill:["React Native", "React", "Responsive Web", "NativeBase"],
+      skill:["React Native", "React", "Responsive Web", "CSS", "NativeBase"],
       period:'May 2020 - Aug 2020',
       href:"https://kovanapp.com/",
       desc1:"Kovan is an application that manages effectively small groups.",
