@@ -5,6 +5,9 @@ html, body {
   height: 100%;
 }
 
+.hidden {
+  display:none
+}
 .main {
   /* background:#fafafa; */
   width: 100%;

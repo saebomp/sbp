@@ -101,16 +101,6 @@ class Nav extends Component {
                         <span class="menu_item_name">About</span>
                     </NavLink>
                 </li>
-                {/* <li>
-                    <NavLink 
-                        to="#Contact" 
-                        className="menu_item" 
-                        activeClassName="selected"
-                        smooth
-                    >
-                    <span class="menu_item_name">Contact</span>
-                    </NavLink>
-                </li> */}
             </ul>
         </div>
     </nav>

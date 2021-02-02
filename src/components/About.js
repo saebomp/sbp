@@ -14,8 +14,8 @@ class About extends Component {
               <li>Worked closely with design and marketing teams within an agile team environment.</li>
             </ul>
 
-            <h6>RESULT</h6>
-            <p>This work environment allowed the development of communication and interpersonal skills. An enriched understanding of multiple devices was acquired.</p>
+            <h6 className="hidden">RESULT</h6>
+            <p className="hidden">This work environment allowed the development of communication and interpersonal skills. An enriched understanding of multiple devices was acquired.</p>
 
             <h5>Whatever Search <span>(Seoul, Korea) / UI Developer (Oct 2015 - Dec 2016)</span></h5>
             <ul>
@@ -24,8 +24,8 @@ class About extends Component {
               <li>Transitioned static websites to responsiveness.</li>
             </ul>
             
-            <h6>RESULT</h6>
-            <p>Able to gain a greater comprehension of responsive web and cross-browsing. </p>
+            <h6 className="hidden">RESULT</h6>
+            <p className="hidden">Able to gain a greater comprehension of responsive web and cross-browsing. </p>
               
             <h5>Gensol Soft <span>(Seoul, Korea) / UI Developer (Jun 2014 - Mar 2015)</span></h5>
             <ul>
@@ -33,8 +33,8 @@ class About extends Component {
               <li>Built Asian Airlines’s policy manual system front-end with HTML and CSS.</li>
             </ul>
 
-            <h6>RESULT</h6>
-            <p>
+            <h6 className="hidden">RESULT</h6>
+            <p className="hidden">
             Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Improved time management skills when working with clients.</p>
 
             <h4>Education</h4>
