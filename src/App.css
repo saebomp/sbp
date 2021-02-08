@@ -210,15 +210,9 @@ h2.heading {
   text-transform: uppercase;
 }
 
-/* .skill .icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} */
 .skill .icons span {
   display: inline-block;
   text-align: center;
-
 }
 
 .skill .icons span em {
@@ -229,6 +223,11 @@ h2.heading {
 
 .skill .icons span svg {
   height:75px
+}
+
+.skill .icons span.npm svg {
+  height:50px;
+  padding-top:25px
 }
 
 
