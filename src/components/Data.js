@@ -34,16 +34,17 @@ export let DATA = [
     {
       id:3,
       imgtitle: 'Expense Tracker',
-      src: require('../images/p03.png'),
+      src: require('../images/p05.png'),
       alt:'Expense Tracker',
       name:'Expense Tracker',
-      skill:["React", "React Hooks", "D3.js", "Tailwind"],
+      skill:["React", "React Hooks", "D3.js", "tailwind"],
       period:'Aug 2016 - Dec 2016',
       href:"https://saebomp.github.io/expenseTracker/",
       // desc1:"",
       desc2:[
-        "Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website.",
-        "Improved time management skills when working with clients."
+        "It showcases the ability to create expenses / incomes lists and to remove them.",
+        "Implemented the calculation functionality the total remaining budget and the total expenses / incomes.",
+        "Visualized data with D3.js"
       ]
     },
     {
