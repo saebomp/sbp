@@ -50,7 +50,7 @@ export let DATA = [
     {
       id:4,
       imgtitle: 'kovan',
-      src: require('../images/p01.png'),
+      src: require('../images/p06.png'),
       alt:'kovan',
       name:'KOVAN',
       skill:["React Native", "React", "Responsive Web", "CSS", "NativeBase"],
