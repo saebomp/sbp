@@ -230,6 +230,9 @@ h2.heading {
   padding-top:25px
 }
 
+.skill .icons ul li {
+  text-align: center;
+}
 
 /*wave*/
 @keyframes wave {
