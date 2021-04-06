@@ -278,6 +278,20 @@ h2.heading {
   animation: wave 4s infinite linear;
 }
 
+/*skills*/
+.react-multiple-carousel__arrow--left {
+  left:0 !important
+}
+.react-multiple-carousel__arrow--right {
+  right:0 !important
+}
+.react-multiple-carousel__arrow {
+  min-width: 25px !important;
+  min-height: 25px !important;
+}
+.react-multiple-carousel__arrow::before {
+  font-size:15px !important;
+}
 
 
 /*about */
