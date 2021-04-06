@@ -1,5 +1,5 @@
 # Portfolio website
-- It showcases my works including school project my side project
+- It showcases my works including school project and my side project
 - It designed fully responsive website
 - Carousel and Animate on scroll were implemented with npm
 ## Technologies

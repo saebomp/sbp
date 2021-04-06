@@ -11,9 +11,9 @@ export let DATA = [
       href:"https://saebomp.github.io/movie_app",
       // desc1:"",
       desc2:[
-        "Smart Movie and TV Finder provides movie and tv shows lists upon user's request.",
+        "It provides movie and tv shows lists upon user's request.",
         "Upon selecting another selection from that dropdown box, the list of results refresh to reflect the updated response from the new query.",
-        "Utilized React and Material UI."
+        "Implemented pagination : it displays 20 results per page."
       ]
     },
     {
@@ -26,8 +26,7 @@ export let DATA = [
       href:"https://github.com/saebomp/newsql",
       // desc1:"This is my projectn",
       desc2:[
-        "Fetched data from a REST Endpoint with Apollo using GraphQL query language.", 
-        "Displayed results from the remote API endpoint.",
+        "Fetched data and displayed results from the remote REST Endpoint with Apollo using GraphQL query language.", 
         "Fetched new data when the tab is switched."
       ]
     },
