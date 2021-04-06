@@ -39,6 +39,10 @@ class About extends Component {
 
             <h4>Education</h4>
             <p>Web and Mobile App Design and Development, Langara College <span>(Vancouver, BC)</span></p>
+            <ul>
+              <li>Earned Dean's Honor for good academic standing
+</li>
+            </ul>
           </div>
         </div>
       </div>
