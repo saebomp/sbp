@@ -185,15 +185,16 @@ nav.scroll .logo {
   margin:20px auto 0;
   /* background-color:#e2efff; */
   border:1px solid #f54f3f;
-  padding: 10px 20px;
   color:#f54f3f;
   border-radius: 10px;
-  width:90px;
+  width:130px;
   text-align: center;
 }
 
 .download a {
+  padding: 10px 20px;
   color:#f54f3f;
+  display:block;
 }
 
 .download a:hover {
