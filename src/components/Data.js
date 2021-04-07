@@ -18,11 +18,11 @@ export let DATA = [
     },
     {
       id:2,
-      imgtitle: 'News app',
+      imgtitle: 'News Box',
       src: require('../images/p04.png'),
-      alt:'News app',
-      name:'News app',
-      skill:["React", "Responsive Web", "GraphQl", "CSS", "Ant Design"],
+      alt:'News Box',
+      name:'News Box',
+      skill:["React", "Responsive Web", "GraphQL", "CSS", "Ant Design"],
       href:"https://github.com/saebomp/newsql",
       // desc1:"This is my projectn",
       desc2:[
@@ -32,17 +32,17 @@ export let DATA = [
     },
     {
       id:3,
-      imgtitle: 'Expense Tracker',
+      imgtitle: 'Quick Budget',
       src: require('../images/p05.png'),
-      alt:'Expense Tracker',
-      name:'Expense Tracker',
+      alt:'Quick Budget',
+      name:'Quick Budget',
       skill:["React", "React Hooks", "D3.js", "tailwind"],
       period:'Aug 2016 - Dec 2016',
       href:"https://saebomp.github.io/expenseTracker/",
       // desc1:"",
       desc2:[
-        "It showcases the ability to create expenses / incomes lists and to remove them.",
-        "Implemented the calculation functionality the total remaining budget and the total expenses / incomes.",
+        "It showcases the ability to create expenses and incomes lists and to remove them.",
+        "Implemented the calculation functionality the total remaining budget and the total expenses and incomes.",
         "Visualized data with D3.js"
       ]
     },

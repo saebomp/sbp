@@ -367,11 +367,11 @@ h2.heading {
 
 .items .linkWrapper ul {
   color:#333;
-  padding:15px 25px;
+  padding:0px 25px 10px;
 }
 
 .items .linkWrapper ul li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size:18px;
   display: flex;
   justify-content: flex-start;
@@ -385,8 +385,8 @@ h2.heading {
 
 .items .linkWrapper .desclist li:before { 
   content: '-'; 
-  margin-left: -20px;
-  margin-right: 10px; 
+  margin-left: -24px;
+  margin-right: 9px; 
 }
 
 .items .linkWrapper ul li.itemname {
