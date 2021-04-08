@@ -9,6 +9,7 @@ export let DATA = [
       skill:["React", "Responsive Web", "CSS", "Material-UI"],
       period:'October 2020',
       href:"https://saebomp.github.io/movie_app",
+      repo:"https://github.com/saebomp/movie_app",
       // desc1:"",
       desc2:[
         "It provides movie and tv shows lists upon user's request.",
@@ -23,7 +24,8 @@ export let DATA = [
       alt:'News Box',
       name:'News Box',
       skill:["React", "Responsive Web", "GraphQL", "CSS", "Ant Design"],
-      href:"https://github.com/saebomp/newsql",
+      href:"https://upbeat-ride-c77cbd.netlify.app/",
+      repo:"https://github.com/saebomp/newsql",
       // desc1:"This is my projectn",
       desc2:[
         "Fetched data and displayed results from the remote REST Endpoint with Apollo using GraphQL query language.", 
@@ -39,6 +41,7 @@ export let DATA = [
       skill:["React", "React Hooks", "D3.js", "tailwind"],
       period:'Aug 2016 - Dec 2016',
       href:"https://saebomp.github.io/expenseTracker/",
+      repo:"https://github.com/saebomp/expenseTracker",
       // desc1:"",
       desc2:[
         "It showcases the ability to create expenses and incomes lists and to remove them.",
@@ -55,6 +58,7 @@ export let DATA = [
       skill:["React Native", "React", "Responsive Web", "CSS", "NativeBase"],
       period:'May 2020 - Aug 2020',
       href:"https://kovanapp.com/",
+      repo:"https://github.com/bivt-cap/bivt-frontend",
       desc1:"Kovan is an application that manages effectively small groups.",
       desc2:[
         "What I did:",

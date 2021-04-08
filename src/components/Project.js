@@ -39,20 +39,23 @@ export default function Project() {
                   <ul>
                     <li className="itemname">{item.name}</li>
                     <li className="listStyle">
-                    {item.skill.map((list) => (
-                    <span>{list}</span>
-                    ))}
+                      {item.skill.map((list) => (
+                      <span>{list}</span>
+                      ))}
                     </li>
-                    <li><a href={item.href} target="_blank">{item.href}</a></li>
                     <div className="desclist">
                       {item.desc1 ? (
                       <li>{item.desc1}</li>
-                      ): ( null
+                      ) : ( null
                       )}
-                      {item.desc2.map((li) => (
-                      <li>{li}</li>
-                      ))}
-                  </div>
+                        {item.desc2.map((li) => (
+                        <li>{li}</li>
+                        ))}
+                    </div>
+                    <li className="demobtnwrap">
+                      <a className="demobtn" href={item.href} target="_blank">Live Demo</a>
+                      <a className="demobtn" href={item.repo} target="_blank">Github Repo</a>
+                    </li>
                   </ul>
                 </a>
               {/* </Link> */}

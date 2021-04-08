@@ -195,6 +195,7 @@ nav.scroll .logo {
   padding: 10px 20px;
   color:#f54f3f;
   display:block;
+  font-weight: bold;
 }
 
 .download a:hover {
@@ -368,6 +369,7 @@ h2.heading {
 .items .linkWrapper ul {
   color:#333;
   padding:0px 25px 10px;
+  position: relative;
 }
 
 .items .linkWrapper ul li {
@@ -414,6 +416,18 @@ h2.heading {
 
 .items .tPic img:hover {
   transform: scale(1.2);
+}
+
+.demobtn {
+  border: 1px solid #052a58;
+  border-radius: 5px;
+  margin-right:5px;
+  width:49%;
+  text-align: center;
+  padding:8px 0;
+  line-height: 1;
+  font-size: 16px;
+  /* background-color:#052a58; */
 }
 
 /*List*/
