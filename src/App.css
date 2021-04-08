@@ -382,7 +382,7 @@ h2.heading {
 }
 
 .items .linkWrapper .desclist {
- padding:15px 25px
+ padding:15px 0 15px 25px
 }
 
 .items .linkWrapper .desclist li:before { 
