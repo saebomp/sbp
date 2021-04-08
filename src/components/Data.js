@@ -24,7 +24,7 @@ export let DATA = [
       alt:'News Box',
       name:'News Box',
       skill:["React", "Responsive Web", "GraphQL", "CSS", "Ant Design"],
-      href:"https://upbeat-ride-c77cbd.netlify.app/",
+      // href:"https://upbeat-ride-c77cbd.netlify.app/",
       repo:"https://github.com/saebomp/newsql",
       // desc1:"This is my projectn",
       desc2:[

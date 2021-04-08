@@ -53,7 +53,9 @@ export default function Project() {
                         ))}
                     </div>
                     <li className="demobtnwrap">
-                      <a className="demobtn" href={item.href} target="_blank">Live Demo</a>
+                      {item.href ? (<a className="demobtn" href={item.href} target="_blank">Live Demo</a>)
+                    : (null)  
+                    }
                       <a className="demobtn" href={item.repo} target="_blank">Github Repo</a>
                     </li>
                   </ul>
