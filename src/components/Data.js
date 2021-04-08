@@ -29,7 +29,8 @@ export let DATA = [
       // desc1:"This is my projectn",
       desc2:[
         "Fetched data and displayed results from the remote REST Endpoint with Apollo using GraphQL query language.", 
-        "Fetched new data when the tab is switched."
+        "Fetched new data when the tab is switched.",
+        "Built grid layouts with Ant design to make the layout responsive and save time by using predefined functions."
       ]
     },
     {
