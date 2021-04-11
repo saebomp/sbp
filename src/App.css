@@ -9,10 +9,7 @@ html, body {
   display:none
 }
 .main {
-  /* background:#fafafa; */
   width: 100%;
-  /* box-sizing: border-box;
-  height: 100%; */
 }
 
 .wrapper {
@@ -39,7 +36,6 @@ nav {
   height:105px;
   display: flex;
   z-index: 2000;
-  /* box-shadow: 0 10px 25px 0 rgba(0,0,0,.1); */
   overflow:hidden;
   color:#000;
   transition: all 0.5s;
