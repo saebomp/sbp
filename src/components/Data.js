@@ -6,7 +6,7 @@ export let DATA = [
       src: require('../images/p02.png'),
       alt:'Smart Movie and TV Finder',
       name:'Smart Movie and TV Finder',
-      skill:["React", "Responsive Web", "CSS", "Material-UI"],
+      skill:["React", "Responsive Web", "RESTful API", "CSS", "Material-UI"],
       period:'October 2020',
       href:"https://saebomp.github.io/movie_app",
       repo:"https://github.com/saebomp/movie_app",
