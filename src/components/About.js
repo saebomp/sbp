@@ -30,7 +30,7 @@ class About extends Component {
             <h5>Gensol Soft <span>(Seoul, Korea) / UI Developer (Jun 2014 - Mar 2015)</span></h5>
             <ul>
               <li>Built National assembly minutes’ website with Web Accessibility guidelines,  HTML and CSS.</li>
-              <li>Built Asian Airlines’s policy manual system front-end with HTML and CSS.</li>
+              <li>Built Asiana Airlines’s policy manual system front-end with HTML and CSS.</li>
             </ul>
 
             <h6 className="hidden">RESULT</h6>

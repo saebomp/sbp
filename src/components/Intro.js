@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pdf from '../images/resume_Saebom.pdf'
+import Pdf from '../images/Saebom-Pak-Resume.pdf'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
