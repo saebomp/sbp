@@ -20,7 +20,7 @@ class About extends Component {
             <h5>Whatever Search <span>(Seoul, Korea) / UI Developer (Oct 2015 - Dec 2016)</span></h5>
             <ul>
               <li>Built responsive websites with HTML, CSS, JQuery and Bootstrap.</li>
-              <li>Fixed bugs which were caused by old web browsers.</li>
+              <li>Implemented UI for multiple devices according to design.</li>
               <li>Transitioned static websites to responsiveness.</li>
             </ul>
             
