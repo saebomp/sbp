@@ -29,6 +29,9 @@ export const GlobalStyles = createGlobalStyle`
     border:${({ theme }) => theme.demoBtn};
     color:${({ theme }) => theme.demoBtnColor} !important
   }
+  .about span {
+    color:${({ theme }) => theme.color} !important
+  }
   .footer {
     background:${({ theme }) => theme.introBg};
   }
