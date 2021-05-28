@@ -36,5 +36,3 @@ const Homepage = () => {
 
   
 export default Homepage;
-
-// https://bench.co/go/culture/
