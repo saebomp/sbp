@@ -35,4 +35,7 @@ export const GlobalStyles = createGlobalStyle`
   .footer {
     background:${({ theme }) => theme.introBg};
   }
+  .darkmodeforgit {
+    fill:${({ theme }) => theme.darkmodeforgit} !important;
+  }
   `

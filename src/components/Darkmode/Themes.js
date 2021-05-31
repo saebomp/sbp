@@ -10,6 +10,7 @@ export const lightTheme = {
  color:'#dedede',
  demoBtn:'1px solid #f54f3f',
  demoBtnColor:'#f54f3f',
+ darkmodeforgit:'#fff'
 }
 export const darkTheme = {
   body: '#FFF',
