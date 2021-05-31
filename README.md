@@ -11,3 +11,5 @@ npm start<br />
 Project is in progress
 ## Inspiration
 https://www.smashingmagazine.com/2020/04/dark-mode-react-apps-styled-components/
+https://michalsnik.github.io/aos/
+https://www.npmjs.com/package/react-multi-carousel
