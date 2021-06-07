@@ -4,10 +4,12 @@
 - Carousel and Animate on scroll were implemented with npm
 - Implemented Dark mode
 ## Technologies
-React / CSS / Responsive Web /  
+React / CSS / Responsive Web / NPM
 ## Setup
 npm start<br />
 ## Status
 Project is in progress
 ## Inspiration
-https://www.smashingmagazine.com/2020/04/dark-mode-react-apps-styled-components/
+https://www.smashingmagazine.com/2020/04/dark-mode-react-apps-styled-components/<br />
+https://michalsnik.github.io/aos/<br />
+https://www.npmjs.com/package/react-multi-carousel
