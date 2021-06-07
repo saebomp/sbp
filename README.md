@@ -4,7 +4,7 @@
 - Carousel and Animate on scroll were implemented with npm
 - Implemented Dark mode
 ## Technologies
-React / CSS / Responsive Web /  
+React / CSS / Responsive Web / NPM
 ## Setup
 npm start<br />
 ## Status
