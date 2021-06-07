@@ -11,7 +11,7 @@ class About extends Component {
             <ul>
               <li>Updated code to improve site performance with JavaScript, HTML 5 and CSS.</li>
               <li>Operated across multiple devices and browsers.</li>
-              <li>Worked closely with design and marketing teams within an agile team environment.</li>
+              <li>Translated designs and wireframes into responsive websites</li>
             </ul>
 
             <h6 className="hidden">RESULT</h6>
@@ -35,7 +35,7 @@ class About extends Component {
 
             <h6 className="hidden">RESULT</h6>
             <p className="hidden">
-            Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Improved time management skills when working with clients.</p>
+            Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website. Translated designs and wireframes into responsive websites.</p>
 
             <h4>Education</h4>
             <p>Web and Mobile App Design and Development, Langara College <span>(Vancouver, BC)</span></p>
