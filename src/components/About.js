@@ -9,9 +9,9 @@ class About extends Component {
             <h4>Work Experience</h4>
             <h5>Littlefox <span>(Seoul, Korea) / UI Developer (Jan 2017 - Aug 2018)</span></h5>
             <ul>
-              <li>Updated code to improve site performance with JavaScript, HTML 5 and CSS.</li>
-              <li>Operated across multiple devices and browsers.</li>
-              <li>Translated designs and wireframes into responsive websites</li>
+              <li>Implemented pixel perfect HTML for a design across different web browsers and platforms.</li>
+              <li>Translated designs and wireframes into high quality code, complying with best practices.</li>
+              <li>Collaborated with the team on feature development, code reviews, and bug fixing.</li>
             </ul>
 
             <h6 className="hidden">RESULT</h6>
@@ -19,8 +19,8 @@ class About extends Component {
 
             <h5>Whatever Search <span>(Seoul, Korea) / UI Developer (Oct 2015 - Dec 2016)</span></h5>
             <ul>
-              <li>Built responsive websites with HTML, CSS, JQuery and Bootstrap.</li>
-              <li>Implemented UI for multiple devices according to design.</li>
+              <li>Developed and maintained responsive web applications leveraging front end development using HTML, CSS and JavaScript.</li>
+              <li>Implemented user interfaces for multiple devices according to design.</li>
               <li>Transitioned static websites to responsiveness.</li>
             </ul>
             
@@ -29,8 +29,8 @@ class About extends Component {
               
             <h5>Gensol Soft <span>(Seoul, Korea) / UI Developer (Jun 2014 - Mar 2015)</span></h5>
             <ul>
-              <li>Built National assembly minutes’ website with Web Accessibility guidelines,  HTML and CSS.</li>
-              <li>Built Asiana Airlines’s policy manual system front-end with HTML and CSS.</li>
+              <li>Worked on a variety of clients and project types.</li>
+              <li>Collaborated with the design team to develop and optimize for a consistent user experience.</li>
             </ul>
 
             <h6 className="hidden">RESULT</h6>

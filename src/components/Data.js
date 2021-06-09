@@ -62,7 +62,7 @@ export let DATA = [
       repo:"https://github.com/bivt-cap/bivt-frontend",
       desc1:"Kovan is an application that manages effectively small groups.",
       desc2:[
-        "What I did:",
+        // "What I did:",
         "Built To-do list and polling page with React Native.",
         "Implemented interactive graph chart with React Native svg.",
         "Applied consistent styling for expenses page.",
