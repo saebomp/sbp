@@ -8,8 +8,8 @@ export let DATA = [
       name:'Smart Movie and TV Finder',
       skill:["React", "Responsive Web", "RESTful API", "CSS", "Material-UI"],
       period:'October 2020',
-      href:"https://saebomp.github.io/movie_app",
-      repo:"https://github.com/saebomp/movie_app",
+      href:"https://saebomp.github.io/smart_movie_finder",
+      repo:"https://github.com/saebomp/smart_movie_finder",
       // desc1:"",
       desc2:[
         "It provides movie and tv shows lists upon user's request.",
@@ -25,7 +25,7 @@ export let DATA = [
       name:'News Box',
       skill:["React", "Responsive Web", "GraphQL", "CSS", "Ant Design"],
       // href:"https://upbeat-ride-c77cbd.netlify.app/",
-      repo:"https://github.com/saebomp/newsql",
+      repo:"https://github.com/saebomp/news_box",
       // desc1:"This is my projectn",
       desc2:[
         "Fetched data and displayed results from the remote REST Endpoint with Apollo using GraphQL query language.", 
@@ -41,8 +41,8 @@ export let DATA = [
       name:'Quick Budget',
       skill:["React", "React Hooks", "D3.js", "tailwind"],
       period:'Aug 2016 - Dec 2016',
-      href:"https://saebomp.github.io/expenseTracker/",
-      repo:"https://github.com/saebomp/expenseTracker",
+      href:"https://saebomp.github.io/quick_budget/",
+      repo:"https://github.com/saebomp/quick_budget",
       // desc1:"",
       desc2:[
         "It showcases the ability to create expenses and incomes lists and to remove them.",
