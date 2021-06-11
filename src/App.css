@@ -228,7 +228,8 @@ h2.heading {
 .skill .icons span em {
   text-align: center;
   display: block;
-  margin-top:5px
+  margin-top:5px;
+  line-height: 1.1;
 }
 
 .skill .icons span svg {
