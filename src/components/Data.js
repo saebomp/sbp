@@ -50,39 +50,41 @@ export let DATA = [
         "Visualized data with D3.js"
       ]
     },
-    {
-      id:4,
-      imgtitle: 'kovan',
-      src: require('../images/p06.png'),
-      alt:'kovan',
-      name:'KOVAN',
-      skill:["React Native", "React", "Responsive Web", "CSS", "NativeBase"],
-      period:'May 2020 - Aug 2020',
-      href:"https://kovanapp.com/",
-      repo:"https://github.com/bivt-cap/bivt-frontend",
-      desc1:"Kovan is an application that manages effectively small groups.",
-      desc2:[
-        // "What I did:",
-        "Built To-do list and polling page with React Native.",
-        "Implemented interactive graph chart with React Native svg.",
-        "Applied consistent styling for expenses page.",
-        "Built the promotional website of Kovan with React." 
-      ]
-    },
     // {
-    //   id:3,
-    //   imgtitle: 'National Assembly Minutes',
-    //   src: require('../images/p03.png'),
-    //   alt:'National Assembly Minutes',
-    //   name:'National Assembly Minutes',
-    //   skill:["HTML", "CSS", "Web Accessibility"],
-    //   period:'Aug 2016 - Dec 2016',
-    //   href:"http://likms.assembly.go.kr/record/",
-    //   // desc1:"",
+    //   id:4,
+    //   imgtitle: 'kovan',
+    //   src: require('../images/p06.png'),
+    //   alt:'kovan',
+    //   name:'KOVAN',
+    //   skill:["React Native", "React", "Responsive Web", "CSS", "NativeBase"],
+    //   period:'May 2020 - Aug 2020',
+    //   href:"https://kovanapp.com/",
+    //   repo:"https://github.com/bivt-cap/bivt-frontend",
+    //   desc1:"Kovan is an application that manages effectively small groups.",
     //   desc2:[
-    //     "Learned how to make a website accessible and became familiar with UX design while transitioning to a user-friendly website.",
-    //     "Improved time management skills when working with clients."
+    //     // "What I did:",
+    //     "Built To-do list and polling page with React Native.",
+    //     "Implemented interactive graph chart with React Native svg.",
+    //     "Applied consistent styling for expenses page.",
+    //     "Built the promotional website of Kovan with React." 
     //   ]
     // },
+    {
+      id:5,
+      imgtitle: 'Starbucks Landing Page',
+      src: require('../images/p07.png'),
+      alt:'Starbucks Landing Page',
+      name:'Starbucks Landing Page',
+      skill:["HTML5", "SASS", "Responsive Web", "NPM"],
+      period:'Aug 2016 - Dec 2016',
+      href:"https://saebomp.github.io/landing-page/",
+      repo:"https://github.com/saebomp/landing-page",
+      // desc1:"",
+      desc2:[
+        "A landing page to promote Starbucks new menu.",
+        "It designed fully responsive website.",
+        "Implemented mousewheel event with Swiperjs"
+      ]
+    },
     
 ]
