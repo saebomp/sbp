@@ -6,7 +6,7 @@
 ## Technologies
 React / CSS / Responsive Web / NPM
 ## Setup
-npm start<br />
+https://www.saebompak.com/
 ## Status
 Project is in progress
 ## Inspiration
