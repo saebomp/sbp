@@ -92,7 +92,7 @@ export let DATA = [
       src: require('../images/p08.png'),
       alt:'My Portfolio Website',
       name:'My Portfolio Website',
-      skill:["React", "React Hooks","CSS", "Responsive Web", "npm"],
+      skill:["React", "React Hooks","CSS", "Responsive Web", "npm", "Netlify"],
       period:'Aug 2016 - Dec 2016',
       href:"https://saebompak.com",
       repo:"https://github.com/saebomp/sbp",
