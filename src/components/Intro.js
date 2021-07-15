@@ -26,7 +26,8 @@ class Intro extends Component {
       <div className="intro" id="Intro">
         <div className="center">
           <div className="text">
-            <h1>Hello, I’m Anne<br />Front-end developer</h1>
+            <h1>Hello, I’m Anne</h1>
+            <h1>Front-end developer</h1>
             <p>A self-directed, motivated front-end developer who loves building user-friendly websites and web apps with best practices. 
 Eager to improve development skills with a focus on clean and efficient code.</p>
             <div className="download">

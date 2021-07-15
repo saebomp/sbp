@@ -75,7 +75,7 @@ export let DATA = [
       src: require('../images/p07.png'),
       alt:'Starbucks Landing Page',
       name:'Starbucks Landing Page',
-      skill:["HTML5", "SASS", "Responsive Web", "NPM"],
+      skill:["HTML5", "SASS", "Responsive Web", "npm"],
       period:'Aug 2016 - Dec 2016',
       href:"https://saebomp.github.io/landing-page/",
       repo:"https://github.com/saebomp/landing-page",
@@ -86,5 +86,22 @@ export let DATA = [
         "Implemented mousewheel event with Swiperjs"
       ]
     },
-    
+    {
+      id:6,
+      imgtitle: 'My Portfolio Website',
+      src: require('../images/p08.png'),
+      alt:'My Portfolio Website',
+      name:'My Portfolio Website',
+      skill:["React", "React Hooks","CSS", "Responsive Web", "npm"],
+      period:'Aug 2016 - Dec 2016',
+      href:"https://saebompak.com",
+      repo:"https://github.com/saebomp/sbp",
+      // desc1:"",
+      desc2:[
+        "It showcases my works including school project and my side project.",
+        "It designed fully responsive website.",
+        "Carousel and Animate on scroll were implemented with npm",
+        "Implemented Dark mode"
+      ]
+    },
 ]
