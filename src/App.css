@@ -644,6 +644,13 @@ h2.heading {
   .download {
     font-size: 14px;
   }
+  .items .linkWrapper ul li.listStyle {
+    display: block;
+  }
+  .items .linkWrapper ul li.listStyle span {
+    display: inline-block;
+    margin-top:5px
+  }
 }
 
 @media screen and (max-width: 480px) {
