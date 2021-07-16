@@ -101,7 +101,7 @@ export let DATA = [
         "It showcases my works including school project and my side project.",
         "It designed fully responsive website.",
         "Carousel and Animate on scroll were implemented with npm",
-        "Implemented Dark mode"
+        "Implemented dark mode"
       ]
     },
 ]
