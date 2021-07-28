@@ -47,7 +47,7 @@ export let DATA = [
       desc2:[
         "It showcases the ability to create expenses and incomes lists and to remove them.",
         "Implemented the calculation functionality the total remaining budget and the total expenses and incomes.",
-        "Visualized data with D3.js"
+        "Visualized data with D3.js."
       ]
     },
     // {
@@ -83,7 +83,7 @@ export let DATA = [
       desc2:[
         "A landing page to promote Starbucks new menu.",
         "It designed fully responsive website.",
-        "Implemented mousewheel event with Swiperjs"
+        "Implemented mousewheel event with Swiperjs."
       ]
     },
     {
@@ -100,8 +100,8 @@ export let DATA = [
       desc2:[
         "It showcases my works including school project and my side project.",
         "It designed fully responsive website.",
-        "Carousel and Animate on scroll were implemented with npm",
-        "Implemented dark mode"
+        "Carousel and Animate on scroll were implemented with npm.",
+        "Implemented dark mode."
       ]
     },
 ]
