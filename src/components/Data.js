@@ -82,7 +82,7 @@ export let DATA = [
       // desc1:"",
       desc2:[
         "A landing page to promote Starbucks new menu.",
-        "It designed fully responsive website.",
+        // "A fully responsive website.",
         "Implemented mousewheel event with Swiperjs."
       ]
     },
@@ -99,7 +99,7 @@ export let DATA = [
       // desc1:"",
       desc2:[
         "It showcases my works including school project and my side project.",
-        "It designed fully responsive website.",
+        // "A fully responsive website.",
         "Carousel and Animate on scroll were implemented with npm.",
         "Implemented dark mode."
       ]
