@@ -104,4 +104,18 @@ export let DATA = [
         "Implemented dark mode."
       ]
     },
+    {
+      id:7,
+      imgtitle: 'National Assembly Minutes of Korea',
+      src: require('../images/p09.png'),
+      alt:'National Assembly Minutes of Korea',
+      name:'National Assembly Minutes of Korea',
+      skill:["HTML","CSS", "jQuery", "Web Accessibility"],
+      href:"http://likms.assembly.go.kr/record/",
+      // desc1:"",
+      desc2:[
+        "The meeting held at the National Assembly and recorded by the Digital Content Service are transcribed in full and posted online. ",
+        "Complied with web accessibility standards and guidelines. ",
+      ]
+    },
 ]

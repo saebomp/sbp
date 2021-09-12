@@ -7,7 +7,7 @@ class About extends Component {
         <div className="container">
           <div className="about">
             <h4>Work Experience</h4>
-            <h5>Littlefox <span>(Seoul, Korea) / UI Developer (2017 - 2018)</span></h5>
+            <h5>Littlefox <span>(Seoul, Korea) / UI Designer, UI Developer (2017 - 2018)</span></h5>
             <ul>
               <li>Implemented pixel perfect HTML for a design across different web browsers and platforms.</li>
               <li>Translated designs and wireframes into high quality code, complying with best practices.</li>
