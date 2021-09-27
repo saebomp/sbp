@@ -39,7 +39,7 @@ export let DATA = [
       src: require('../images/p05.png'),
       alt:'Quick Budget',
       name:'Quick Budget',
-      skill:["React", "React Hooks", "D3.js", "tailwind"],
+      skill:["React", "React Hooks", "D3.js", "Tailwind"],
       period:'Aug 2016 - Dec 2016',
       href:"https://saebomp.github.io/quick_budget/",
       repo:"https://github.com/saebomp/quick_budget",
